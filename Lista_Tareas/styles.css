@@ -131,11 +131,35 @@ i {
   border-radius: 11px;
   transition: width 0.1s ease;
 }
-/* PORCENTAJE — SIEMPRE VISIBLE AL LADO DE LA BARRA */
 .porcentaje-texto {
   font-size: 13px;
   font-weight: bold;
   color: white;
   margin-left: 8px;
   white-space: nowrap;
+}
+/* Contador general */
+#contador-general {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1312a8;
+  margin-bottom: 15px;
+}
+/* Tiempo por tarea */
+.tiempo-tarea {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffff00;
+  white-space: nowrap;
+}
+
+/* Reloj en tiempo real */
+#reloj-actual {
+  font-size: 16px;
+  font-weight: bold;
+  color: #404040;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
 }
